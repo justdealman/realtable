@@ -1,0 +1,317 @@
+﻿/* Fonts */
+
+@font-face {
+    font-family:'Segoe UI';
+    src:url('./fonts/segoeui.eot');
+    src:url('./fonts/segoeui.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/segoeui.woff') format('woff'),
+        url('./fonts/segoeui.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+/* Default */
+
+body {
+	color:#000000;
+	font-size:12px;
+	line-height:18px;
+    font-family:'Arial', sans-serif;
+	padding:0;
+	margin:0;
+	background:#ffffff;
+}
+p {
+	text-indent:0;
+	padding:0;
+	margin:0 0 18px;
+}
+table {
+	margin:0 0 18px;
+	border-collapse:collapse;
+}
+table td {
+	padding:0;
+}
+:focus {
+	outline:none;
+}
+img {
+	padding:0;
+	margin:0;
+	border:0;
+}
+a {
+	color:#990100;
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration:none;
+}
+form {
+	margin:0;
+}
+ul {
+	margin:0 0 10px 16px;
+	padding:0;
+}
+ul li {
+	padding:0;
+	list-style:none;
+}
+ol {
+	margin:0 0 10px 18px;
+	padding:0;
+}
+* +html ol {
+	padding:0 0 0 5px;
+}
+ol li {
+	padding:0 0 0 16px;
+}
+input, select, textarea {
+	color:#ffffff;
+	font-size:12px;
+    font-family:'Arial', sans-serif;
+	padding:0;
+	margin:0;
+	background:none;
+	border:0;
+}
+textarea {
+	overflow:auto;
+}
+button {
+    font-family:'Arial', sans-serif;
+	margin:0;
+	border:0;
+	-moz-box-shadow:border-box;
+	-webkit-box-shadow:border-box;
+	box-sizing:border-box;
+}
+button::-moz-focus-inner {
+	padding:0;
+	border:0;
+}
+::-webkit-input-placeholder {
+	color:#ffffff;
+}
+:-moz-placeholder {
+	color:#ffffff;
+}
+::-moz-placeholder {
+	color:#ffffff;
+}
+:-ms-input-placeholder {
+	color:#ffffff;
+}
+.wrapper {
+	position:relative;
+	width:960px;
+	margin:0 auto;
+}
+
+/* Table */
+
+table.standart {
+	width:100%;
+	color:#011422;
+	font-size:12px;
+	line-height:14px;
+    font-family:'Segoe UI', sans-serif;
+	margin:0 0 20px;
+	border-collapse:collapse;
+	border:1px solid #67727a;
+}
+table.standart a {
+	color:#011422;
+	font-weight:bold;
+	text-decoration:underline;
+}
+table.standart a:hover {
+	text-decoration:none;
+}
+table.standart th {
+	position:relative;
+	color:#ffffff;
+	padding:8px 9px 9px;
+	text-align:center;
+	background:#f21d41;
+}
+table.standart td {
+	position:relative;
+	padding:5px 9px 6px;
+	text-align:center;
+	background:#ffffff;
+	border:1px solid #67727a;
+}
+table.standart tr:nth-child(2n) td {
+	background:#eaedef;
+}
+table.standart span {
+	display:block;
+}
+table.standart .description {
+	display:inline-block;
+	width:19px;
+	height:19px;
+	margin:-1px 0 -4px;
+	background:url('./images/standart_description.png') no-repeat left top;
+}
+table.standart .description:hover {
+	background-position:0 -19px;
+}
+table.standart .description.active, table.standart .description:active {
+	background-position:0 -38px !important;
+}
+table.standart .photo {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	margin:0 0 -2px;
+	background:url('./images/standart_photo.png') no-repeat left top;
+}
+table.standart .photo:hover {
+	background-position:0 -16px;
+}
+table.standart .photo:active {
+	background-position:0 -32px;
+}
+table.standart .warning {
+	display:inline-block;
+	width:19px;
+	height:14px;
+	margin:0 0 -2px;
+	background:url('./images/standart_warning.png') no-repeat left top;
+}
+table.standart .warning:hover {
+	background-position:0 -14px;
+}
+table.standart .warning:active {
+	background-position:0 -28px;
+}
+table.standart .edit {
+	display:inline-block;
+	width:13px;
+	height:15px;
+	margin:0 0 -3px;
+	background:url('./images/standart_edit.png') no-repeat left top;
+}
+table.standart .edit:hover {
+	background-position:0 -15px;
+}
+table.standart .edit:active {
+	background-position:0 -30px;
+}
+table.standart .remove {
+	display:inline-block;
+	width:14px;
+	height:14px;
+	margin:0 0 -3px;
+	background:url('./images/standart_remove.png') no-repeat left top;
+}
+table.standart .remove:hover {
+	background-position:0 -14px;
+}
+table.standart .remove:active {
+	background-position:0 -28px;
+}
+table.standart .save {
+	display:inline-block;
+	width:16px;
+	height:15px;
+	margin:0 0 -3px;
+	background:url('./images/standart_save.png') no-repeat left top;
+}
+table.standart .save:hover {
+	background-position:0 -15px;
+}
+table.standart .save:active {
+	background-position:0 -30px;
+}
+table.standart .payment {
+	display:inline-block;
+	width:16px;
+	height:13px;
+	margin:0 0 -3px;
+	background:url('./images/standart_payment.png') no-repeat left top;
+}
+table.standart .payment:hover {
+	background-position:0 -13px;
+}
+table.standart .payment:active {
+	background-position:0 -26px;
+}
+table.standart .drop {
+	display:none;
+	position:absolute;
+	top:34px;
+	left:50%;
+	z-index:10;
+	width:310px;
+	padding:33px 22px 23px;
+	margin-left:-177px;
+	background:#ffffff;
+	border:2px solid #7b8e9c;
+	-webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+	box-shadow:5px 5px 5px rgba(0,0,0,0.3);
+	behavior:url('./pie.htc');
+}
+table.standart .drop h5 {
+	color:#011422;
+	font-size:16px;
+	line-height:18px;
+	font-weight:normal;
+	font-family:'Segoe UI', sans-serif;
+	padding:0;
+	margin:0 0 15px;
+}
+table.standart .drop p {
+	color:#7b8e9c;
+	font-size:14px;
+	line-height:16px;
+	text-align:justify;
+	margin:0 0 15px;
+}
+table.standart .drop .close {
+	position:absolute;
+	top:9px;
+	right:10px;
+	display:block;
+	width:14px;
+	height:14px;
+	cursor:pointer;
+	background:url('./images/standart_drop_close.png') no-repeat left top;
+}
+div.checker {
+	position:relative;
+    display:inline-block;
+	margin:4px 0 -4px;
+}
+div.checker, div.checker span, div.checker input {
+    width:14px;
+    height:14px;
+}
+div.checker span {
+    display:-moz-inline-box;
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+    text-align:center;
+    background:url('./images/checkbox_bg.png') no-repeat left top;
+}
+div.checker span.checked {
+    background-position:0 -14px;
+}
+div.checker input {
+    opacity:0;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    border:none;
+    background:none;
+    display:-moz-inline-box;
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
