@@ -248,8 +248,7 @@ table.standart .drop {
 	top:34px;
 	left:50%;
 	z-index:10;
-	width:310px;
-	padding:33px 22px 23px;
+	width:354px;
 	margin-left:-177px;
 	background:#ffffff;
 	border:2px solid #7b8e9c;
@@ -257,6 +256,11 @@ table.standart .drop {
 	-moz-box-shadow:5px 5px 5px rgba(0,0,0,0.3);
 	box-shadow:5px 5px 5px rgba(0,0,0,0.3);
 	behavior:url('./pie.htc');
+}
+table.standart .drop > div {
+	max-height:184px;
+	padding:33px 22px 23px;
+	overflow-y:auto;
 }
 table.standart .drop h5 {
 	color:#011422;
@@ -277,7 +281,7 @@ table.standart .drop p {
 table.standart .drop .close {
 	position:absolute;
 	top:9px;
-	right:10px;
+	right:22px;
 	display:block;
 	width:14px;
 	height:14px;
